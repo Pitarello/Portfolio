@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Montserrat+Alternates&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+body{
+    background-color: #141E46;
+    height: 100vh;
+    width:100%;
+    overflow-x: hidden;
+}
+
+
+.imagem_linguagens{
+    width: 50%;
+}
+
+
+.menu-apresentacao{
+    color: #FFF5E0;
+    font-size: 36px;
+    font-family: Krona One;
+}
+
+.linguagens{
+    color: #FF6969;
+}
+
+.main-menu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5% 15%;
+    flex-wrap: wrap;
+    gap: 50px 40px;
+    margin-bottom: 6.5px;
+}
+
+.conteudo-escrito{
+    width: 615px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+   align-items: center;
+}
+
+.menu-paragrafo{
+    color: #FFF5E0;
+    font-size: 24px;
+    font-family: Montserrat;
+}
+.buttons{
+    display:flex;
+    flex-direction: column;
+    gap:32px;
+    align-items: center;
+ 
+}
+.button_link{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border: 2px solid #C70039;   
+    width:370px;
+    text-align: center;
+    border-radius:8px;
+    font-size:24px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #FFF5E0;
+    font-family: Montserrat;
+    font-weight: 600;
+}
+.acessar_redes{
+    color:#FFF5E0;
+    font-family: Krona One;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.button_link:hover{
+    background-color:#C70039;
+}
+.rodape{
+    color:#FFF5E0;
+    background-color: #C70039;
+    text-align:center;
+    padding:28px;
+    font-size:26px;
+    font-family: Montserrat;
+}
+.header_sobre_mim{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:24px;
+    color: rgb(255, 105, 105);
+}
+
+.header_home{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size:24px;
+    color: rgb(255, 105, 105);
+}
+
+.cabecalho{
+    padding: 2% 0px 0px 15% ;
+}
+.cabecalho_nav{
+    display: flex;
+    gap: 80px;
+}
